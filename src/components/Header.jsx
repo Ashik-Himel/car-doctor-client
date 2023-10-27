@@ -43,7 +43,7 @@ const Header = () => {
           <div className="flex justify-center items-center gap-4 text-xl">
             <HiOutlineShoppingBag />
             <LuSearch />
-            <Link className="btn btn-primary btn-outline" to='/login'>Login</Link>
+            <Link to='/login' className="btn btn-primary btn-outline" onClick={() => scrollTo(0, 0)}>Login</Link>
           </div>
         </nav>
       </div>

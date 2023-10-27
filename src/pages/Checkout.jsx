@@ -1,8 +1,13 @@
+import { Helmet } from "react-helmet-async";
+
 const Checkout = () => {
   return (
-    <div>
+    <main>
+      <Helmet>
+        <title>Checkout - Car Doctor</title>
+      </Helmet>
       
-    </div>
+    </main>
   );
 };
 

@@ -14,8 +14,8 @@ const Banner = () => {
             <h2 className='text-4xl md:text-6xl font-bold leading-[1.3] md:leading-[1.1] mb-6'>Affordable Price For Car Servicing</h2>
             <p className='mb-8'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div className='flex flex-wrap gap-4'>
-              <Link to='/services' className='btn btn-primary'>Our Services</Link>
-              <Link to='/blog' className='btn btn-outline text-white'>Latest Blog</Link>
+              <Link to='/services' className='btn btn-primary' onClick={() => scrollTo(0, 0)}>Our Services</Link>
+              <Link to='/about' className='btn btn-outline text-white' onClick={() => scrollTo(0, 0)}>About Us</Link>
             </div>
           </div>
         </div>
@@ -31,8 +31,8 @@ const Banner = () => {
             <h2 className='text-4xl md:text-6xl font-bold leading-[1.3] md:leading-[1.1] mb-6'>Affordable Price For Car Servicing</h2>
             <p className='mb-8'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div className='flex flex-wrap gap-4'>
-              <Link to='/services' className='btn btn-primary'>Our Services</Link>
-              <Link to='/blog' className='btn btn-outline text-white'>Latest Blog</Link>
+              <Link to='/services' className='btn btn-primary' onClick={() => scrollTo(0, 0)}>Our Services</Link>
+              <Link to='/about' className='btn btn-outline text-white' onClick={() => scrollTo(0, 0)}>About Us</Link>
             </div>
           </div>
         </div>
@@ -48,8 +48,8 @@ const Banner = () => {
             <h2 className='text-4xl md:text-6xl font-bold leading-[1.3] md:leading-[1.1] mb-6'>Affordable Price For Car Servicing</h2>
             <p className='mb-8'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div className='flex flex-wrap gap-4'>
-              <Link to='/services' className='btn btn-primary'>Our Services</Link>
-              <Link to='/blog' className='btn btn-outline text-white'>Latest Blog</Link>
+              <Link to='/services' className='btn btn-primary' onClick={() => scrollTo(0, 0)}>Our Services</Link>
+              <Link to='/about' className='btn btn-outline text-white' onClick={() => scrollTo(0, 0)}>About Us</Link>
             </div>
           </div>
         </div>
@@ -65,8 +65,8 @@ const Banner = () => {
             <h2 className='text-4xl md:text-6xl font-bold leading-[1.3] md:leading-[1.1] mb-6'>Affordable Price For Car Servicing</h2>
             <p className='mb-8'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div className='flex flex-wrap gap-4'>
-              <Link to='/services' className='btn btn-primary'>Our Services</Link>
-              <Link to='/blog' className='btn btn-outline text-white'>Latest Blog</Link>
+              <Link to='/services' className='btn btn-primary' onClick={() => scrollTo(0, 0)}>Our Services</Link>
+              <Link to='/about' className='btn btn-outline text-white' onClick={() => scrollTo(0, 0)}>About Us</Link>
             </div>
           </div>
         </div>

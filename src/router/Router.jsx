@@ -8,6 +8,10 @@ import Checkout from "../pages/Checkout";
 import PrivateRouteAlt from "../pages/private_routes_manager/PrivateRouteAlt";
 import Login from "../pages/Login";
 import SignUp from "../pages/Signup";
+import ServicesPage from "../pages/ServicesPage";
+import AboutPage from "../pages/AboutPage";
+import BlogPage from "../pages/BlogPage";
+import ContactPage from "../pages/ContactPage";
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +22,22 @@ export const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/about',
+        element: <AboutPage />
+      },
+      {
+        path: '/services',
+        element: <ServicesPage />
+      },
+      {
+        path: '/blog',
+        element: <BlogPage />
+      },
+      {
+        path: '/contact',
+        element: <ContactPage />
       },
       {
         path: '/services/:id',
