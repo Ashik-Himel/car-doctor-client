@@ -14,7 +14,6 @@ export default {
     },
     extend: {
       colors: {
-        "primary": "#FF3811",
         "dark-1": "#151515",
         "dark-2": "#444444",
         "dark-3": "#737373",
@@ -22,5 +21,15 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
+          "primary": "#FF3811"
+        },
+      },
+    ]
+  }
 }

@@ -12,7 +12,7 @@ const Header = () => {
     <header className="text-dark-2 font-semibold py-4">
       <div className="container">
         <nav className="flex justify-between items-center gap-4">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-6">
             <AiOutlineMenu className="md:hidden text-2xl select-none cursor-pointer" onClick={() => setDrawerShow(!drawerShow)} />
             <Link to='/' onClick={() => {
               scrollTo(0, 0)
@@ -43,7 +43,7 @@ const Header = () => {
           <div className="flex justify-center items-center gap-4 text-xl">
             <HiOutlineShoppingBag />
             <LuSearch />
-            <Link className="btn btn-outline" to='/login'>Login</Link>
+            <Link className="btn btn-primary btn-outline" to='/login'>Login</Link>
           </div>
         </nav>
       </div>

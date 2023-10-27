@@ -4,9 +4,12 @@
 
 @layer components {
   .btn {
-    @apply inline-block border-2 px-4 py-2 rounded-md font-semibold text-base;
+    @apply text-base normal-case h-auto min-h-[42px] border-2 rounded-md;
+  }
+  .btn-primary {
+    @apply text-white;
   }
   .btn-outline {
-    @apply text-primary border-primary hover:bg-primary hover:text-white;
+    @apply hover:!text-white;
   }
 }
