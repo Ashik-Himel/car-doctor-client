@@ -10,6 +10,6 @@
     @apply text-white;
   }
   .btn-outline {
-    @apply hover:!text-white;
+    @apply hover:bg-primary hover:!text-white;
   }
 }
