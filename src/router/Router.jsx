@@ -7,7 +7,7 @@ import PrivateRoute from "../pages/private_routes_manager/PrivateRoute";
 import Checkout from "../pages/Checkout";
 import PrivateRouteAlt from "../pages/private_routes_manager/PrivateRouteAlt";
 import Login from "../pages/Login";
-import SignUp from "../pages/Signup";
+import SignUp from "../pages/SignUp";
 import ServicesPage from "../pages/ServicesPage";
 import AboutPage from "../pages/AboutPage";
 import BlogPage from "../pages/BlogPage";
